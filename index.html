@@ -5,12 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles.css">
-
+    <!-- Icons for Facebook and GitHub from w3schools example, https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-facebook-f fa-github -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
-
   </style>
 </head>
 <body>
+    <!-- Structure of website based on YouTube video by Giovanna Proenca, Dors Coding School, 'freeCodeCamp: PERSONAL PORTFOLIO WEBPAGE | PROJECT SOLUTION', https://www.youtube.com/watch?v=dlxN-Nz_Xkg. I have altered / added many elements. -->
     <nav id="navbar">
         <ul id="nav-list">
             <li>
@@ -27,13 +28,14 @@
             </li>
         </ul>
     </nav>
-    <section id="welcome-section" class="welcome-section">
+
+    <section id="welcome-section">
         <h1>I am Nigel</h1>
         <img src="./assets/Images/Nigel Miller.jpg" alt="Nigel Miller"/>
         <p>web developer</p>
     </section>
 
-    <section id="projects" class="projects">
+    <section id="projects">
         <h2>These are some of my projects</h2>
         <div class="projects-grid">
             <a href="">
@@ -63,22 +65,32 @@
         </div>
     </section>
 
-    <section id="about" class="about">
+    <section id="about">
         <div>
             <h2>About Me</h2>
-            <p>I am completing a Front End Developer course.<br>
+            <p>I am undertaking a Front-end Developer course.<br>
+            This websites' readability will be improved.<br>
+            I have purposely not used Bootstrap nor JavaScript for this website.<br>
+            Projects are to be added.<br>
             Very soon I will be Skillsoft certified.</p>
         </div>
         </section>
 
-    <section id="contact" class="contact">
+    <section id="contact">
         <div id="contact-header">
             <h2>Let's work together...</h2>
-            <p id="contact-p"></p>
+            <p id="contact-p"></p><br><br>
         </div>
         <div id="contact-links">
-            <a href="" id="profile-link" target="_blank">GitHub</a>
+            <a style="color: blue" href="https://www.facebook.com/nigel.miller.3194" target="_blank"><i style="font-size:24px" class="fa">&#xf09a;</i><span> </span>Facebook</a>
+            <a style="color: blue" href="https://github.com/nigel-miller" target="_blank"><i style="font-size:24px" class="fa">&#xf09b;</i><span> </span>GitHub</a>
+            <p>&#128231; nigelmiller72@gmx.com<span style="padding-right: 50px"></span>&#128241; +64 0 21 235 6413</p>
         </div>
     </section>
-</body>
+
+    <!-- Footer incl. CSS inspired by w3schools CSS tutoial, https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer -->
+    <div class="footer">
+        <p><small>Email: nigelmiller72@gmx.com | &Psi; Nigel Miller 2023</small></p>
+    </div>
+    </body>
 </html>
