@@ -1,20 +1,31 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang = "en">
 <head>
-    <title>Nigel Miller | Personal Portflio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/styles.css">
+    <title>Nigel Miller | Personal Portfolio</title>
+    <meta charset = "UTF-8">
+    <meta http-equiv = "X-UA-Compatible" content = "IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "assets/styles.css">
     <!-- Icons for Facebook and GitHub from w3schools example, https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-facebook-f fa-github -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <style>
   </style>
 </head>
 
 <body>
-    <div>
+    <nav>
     <!-- Structure of website based on YouTube video by Giovanna Proenca, Dors Coding School, 'freeCodeCamp: PERSONAL PORTFOLIO WEBPAGE | PROJECT SOLUTION', https://www.youtube.com/watch?v=dlxN-Nz_Xkg. I have altered / added many elements. -->
-    <nav id="navbar">
+    
+    <div class="topnav" id="navbar" id="nav-list" id="myTopnav">
+                <a href="#welcome-section">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+    </div>
+    </nav>
+
+    <!-- <nav id="navbar">
         <ul id="nav-list">
             <li>
                 <a href="#welcome-section">Home</a>
@@ -29,79 +40,79 @@
                 <a href="#contact">Contact Me</a>
             </li>
         </ul>
-    </nav>
-    </div>
+    </nav>  -->
 
     <div>
-    <section id="welcome-section">
+    <section id = "welcome-section">
         <h1>I am Nigel</h1>
-        <img src="./assets/Images/Nigel Miller.jpg" alt="Nigel Miller"/>
+        <img src = "./assets/Images/Nigel Miller.jpg" alt = "Nigel Miller" width = "512" height = "512" />
         <p>web developer</p>
     </section>
     </div>
 
     <div>
-    <section id="projects">
+    <section id = "projects">
         <h2>These are some of my projects</h2>
-        <div class="projects-grid">
-            <a href="">
-                <img src="./assets/Images/pexels-matthew-montrone-1324803.jpg" alt="Project 1" class="project-img"/>
-                <p class="project-tile">Project 1</p>
+        <div class = "projects-grid">
+            <a href = "https://nigel-miller.github.io/js-quiz/" target = "_blank">
+                <img src = "./assets/Images/Organic-Gardening-Quiz.png" alt = "Organic Gardening Quiz" width = "600" height = "325" class = "project-img"/>
+                <p class = "project-tile">Organic Gardening Quiz</p>
             </a>
-            <a href="">
-                <img src="./assets/Images/pexels-roberto-shumski-1903702.jpg" alt="Project 2" class="project-img"/>
-                <p class="project-tile">Project 2</p>
+            <a href = "">
+                <img src = "./assets/Images/pexels-roberto-shumski-1903702.jpg" alt = "Project 2" width = "600" height = "400" class = "project-img"/>
+                <p class = "project-tile">Project 2</p>
             </a>
-            <a href="">
-                <img src="./assets/Images/pexels-sergei-a-2589456.jpg" alt="Project 3" class="project-img"/>
-                <p class="project-tile">Project 3</p>
+            <a href = "">
+                <img src = "./assets/Images/pexels-sergei-a-2589456.jpg" alt = "Project 3" width = "600" height = "400" class = "project-img"/>
+                <p class = "project-tile">Project 3</p>
             </a>
-            <a href="">
-                <img src="./assets/Images/pexels-simon-berger-1323550.jpg" alt="Project 4" class="project-img"/>
-                <p class="project-tile">Project 4</p>
+            <a href = "">
+                <img src = "./assets/Images/pexels-simon-berger-1323550.jpg" alt = "Project 4" width = "600" height = "400" class = "project-img"/>
+                <p class = "project-tile">Project 4</p>
             </a>
-            <a href="">
-                <img src="./assets/Images/pexels-stein-egil-liland-1933239.jpg" alt="Project 5" class="project-img"/>
-                <p class="project-tile">Project 5</p>
+            <a href = "">
+                <img src = "./assets/Images/pexels-stein-egil-liland-1933239.jpg" alt = "Project 5" width = "600" height = "400" class = "project-img"/>
+                <p class = "project-tile">Project 5</p>
             </a>
-            <a href="">
-                <img src="./assets/Images/pexels-stephan-seeber-1261728.jpg" alt="Project 6" class="project-img"/>
-                <p class="project-tile">Project 6</p>
+            <a href = "">
+                <img src = "./assets/Images/pexels-stephan-seeber-1261728.jpg" alt = "Project 6" width = "600" height = "400" class = "project-img"/>
+                <p class = "project-tile">Project 6</p>
             </a>
         </div>
     </section>
     </div>
 
     <div>
-    <section id="about">
+    <section id = "about">
         <div>
             <h2>About Me</h2>
-            <p>I am undertaking a Front-end Developer course.<br>
-            I have purposely not used Bootstrap nor JavaScript for this website.<br>
-            Projects are to be added.<br>
-            Very soon I will be Skillsoft certified.</p>
+            <p>I am learning and practising web development.<br>
+            HTML5, CSS3 and JavaScript were utilised for this website.<br>
+            Projects are to be added.</p><br>
         </div>
-        </section>
+    </section>
     </div>
 
     <div>
-    <section id="contact">
-        <div id="contact-header">
+    <section id = "contact">
+        <div id = "contact-header">
             <h2>Let's work together...</h2>
-            <p id="contact-p"></p><br><br>
+            <p id = "contact-p"></p><br><br>
         </div>
-        <div id="contact-links">
-            <a style="color: blue" href="https://www.facebook.com/nigel.miller.3194" target="_blank"><i style="font-size:24px" class="fa">&#xf09a;</i><span> </span>Facebook</a>
-            <a style="color: blue" href="https://github.com/nigel-miller" target="_blank"><i style="font-size:24px" class="fa">&#xf09b;</i><span> </span>GitHub</a>
-            <p>&#128231; nigelmiller72@gmx.com<span style="padding-right: 50px"></span>&#128241; +64 0 21 235 6413</p>
+        <div id = "contact-links">
+            <a href = "https://www.facebook.com/nigel.miller.3194" target = "_blank"><i style = "background: #3B5998" class = "fa">&#xf09a;</i><span> </span>Facebook</a>
+            <a href = "https://github.com/nigel-miller" target = "_blank"><i style = "background: #211F1F" class = "fa">&#xf09b;</i><span> </span>GitHub</a>
+            <a href = "https://www.linkedin.com/in/nigel-miller72/" target = "_blank"><i style = "background: #0072B1" class = "fa">&#xf08c;</i><span> </span>LinkedIn</a>
+            <p>&#128231; nigelmiller72@gmx.com<span style = "padding: 50px"></span>&#128241; +64 0 21 235 6413</p>
         </div>
     </section>
-    </body>
+    </div>
 
     <!-- Footer incl. CSS inspired by w3schools CSS tutoial, https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fixed_footer -->
-    <div class="footer">
+    <div class = "footer">
         <p><small>Email: nigelmiller72@gmx.com | &Psi; Nigel Miller 2023</small></p>
     </div>
     
+    <script src = "assets/script.js"></script>
     </body>
 </html>
