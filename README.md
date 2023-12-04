@@ -2,13 +2,14 @@
 
 ## Introduction
 This is my first coding experience and my first website.
-The object of this website is for me to practice and learn what works - whilst using only HTML5 and CSS3.
+The object of this website is for me to practice and learn what works - whilst using HTML5, CSS3 and JavaScript.
 I was required to produce a Personal Portfolio as a Static front end project. The terms stated that the Portfolio be a minimum of 3 pages, or - if using a single scrolling page - then at least 3 separate page areas.
 This website will be improved for readability on all screen sizes.
 
 ## Technologies
 - HTML5
 - CSS3
+- JavaScript
 
 ## Sources
 - Structure of website based on YouTube video by Giovanna Proenca, Dors Coding School, 'freeCodeCamp: PERSONAL PORTFOLIO WEBPAGE | PROJECT SOLUTION', https://www.youtube.com/watch?v=dlxN-Nz_Xkg. I have altered / added many elements.
